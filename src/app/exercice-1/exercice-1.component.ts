@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import {ColorDirective} from './color.directive';
 
 @Component({
   selector: 'app-exercice-1',
@@ -16,8 +17,9 @@ export class Exercice1Component implements OnInit {
 
   constructor() {
   }
-
   ngOnInit() {
+
+
   }
 
 }
